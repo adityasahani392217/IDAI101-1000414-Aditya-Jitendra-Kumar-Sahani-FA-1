@@ -71,14 +71,37 @@ All intents responded correctly during testing.
 
 ---
 
-## 8. Deployment Steps
-1. Open **Dialogflow ES Console**
-2. Go to **Settings → Export and Import**
-3. Export the agent as **ZIP** (for backup or reuse)
-4. To reuse:
-   - Create new agent → Import ZIP
-5. Verify intents and entities after import
-6. Integrate through **Telegram** or **Web Demo** panel
+## 8. Deployment & Import Instructions
+
+To reuse or deploy this chatbot in another Dialogflow account:
+
+1. **Download the Agent File:**  
+   Download the `civicease_agent.zip` file from this repository.
+
+2. **Open Dialogflow ES:**  
+   https://dialogflow.cloud.google.com/
+
+3. **Create a New Agent:**  
+   - Click **Create Agent**
+   - Set the agent name to **CivicEase**
+   - Choose language and time zone
+   - Click **Create**
+
+4. **Import the Agent ZIP:**  
+   - Go to **Settings (⚙️)** in the left sidebar  
+   - Select **Export and Import**
+   - Click **Import from ZIP**
+   - Select the file **`civicease_agent.zip`**
+   - Confirm **Restore**
+
+5. **Verify Import:**  
+   Ensure that all **Intents** and **Entities** are visible and functioning.
+
+6. **Enable Integrations:**  
+   Go to **Integrations** and select either:
+   - **Telegram Bot Integration**, or  
+   - **Web Demo** for website embedding  
+   Follow the instructions shown on screen.
 
 ---
 
